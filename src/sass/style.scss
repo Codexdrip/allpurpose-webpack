@@ -1,0 +1,122 @@
+*{
+    box-sizing: border-box;
+}
+
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100%;
+    width: 100%;
+    background: black;
+    overflow-x: hidden;
+    section{
+        width: 100vw;
+        height: 80vh;
+    }
+}
+
+.header{
+    
+    .header-title{
+
+        width: 100%;
+        height: 100%;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.main{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 1fr;
+    align-items: center;
+}    
+    .g-left{
+        width: 100%;
+        height: 100%;
+        
+        .pic{
+            grid-column: 3/8;
+            grid-row: 1;
+            
+            position: relative;
+            
+            img {
+                width: 100%;
+                height: auto;
+                z-index: 1;
+            }
+            .overlay{
+                display: block;
+                position: absolute;
+                left: 0;
+                top:0;
+                background: black;
+                width: 100%;
+                height: 100%;
+                z-index: 5;
+            }
+        }
+
+        .info{
+            width: 100%;
+            height: 20%;
+            grid-column: 2/5;
+            grid-row: 1;
+            z-index: 3;
+            color: black;
+            background: white;
+            padding: 0 16px;
+        }
+    }
+
+
+    .g-right{
+        width: 100%;
+        height: 100%;
+        
+        .pic{
+            grid-column: 6/11;
+            grid-row: 1;
+            
+            position: relative;
+            
+            img {
+                width: 100%;
+                height: auto;
+                z-index: 1;
+            }
+            .overlay{
+                display: block;
+                position: absolute;
+                left: 0;
+                top:0;
+                background: black;
+                width: 100%;
+                height: 100%;
+                z-index: 5;
+            }
+        }
+
+        .info{
+            width: 100%;
+            height: 20%;
+            grid-column: 9/12;
+            grid-row: 1;
+            z-index: 3;
+            color: black;
+            background: white;
+            padding: 0 16px;
+        }
+    }
+
+    
