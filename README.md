@@ -4,7 +4,7 @@ Canvas Boilerplate is the go-to solution for quickly creating modern canvas piec
 
 1.  Clone the repo:
 
-        git clone https://github.com/christopher4lis/canvas-boilerplate.git
+        git clone https://github.com/Codexdrip/allpurpose-webpack.git
 
 2.  Install dependencies:
 
@@ -14,8 +14,21 @@ Canvas Boilerplate is the go-to solution for quickly creating modern canvas piec
 
         npm install
 
-3.  Run webpack:
+3.  Run setup to install all dependencies:
 
-        npm start
+        npm run setup
 
-Your canvas piece should open up automatically at http://localhost:3000 and you should see 'HTML CANVAS BOILERPLATE' on hover.
+4. Start Webpack
+
+        npm run start
+
+
+Your environment should open up automatically at http://localhost:3000 and you should see 'Milk is nice on a black background'.
+
+This setup gives you the ability to use:
+Sass,
+Images,
+Gsap (for animation),
+Barba.js (for page transitions),
+ScrollMagic (for triggering animations),
+more to come...
