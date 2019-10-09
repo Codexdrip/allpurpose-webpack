@@ -6,19 +6,11 @@ Canvas Boilerplate is the go-to solution for quickly creating modern canvas piec
 
         git clone https://github.com/Codexdrip/allpurpose-webpack.git
 
-2.  Install dependencies:
-
-        yarn
-
-    or
-
-        npm install
-
-3.  Run setup to install all dependencies:
+2.  Run setup to install all dependencies:
 
         npm run setup
 
-4. Start Webpack
+3. Start Webpack
 
         npm run start
 
